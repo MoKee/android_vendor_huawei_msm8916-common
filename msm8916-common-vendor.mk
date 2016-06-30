@@ -29,10 +29,20 @@ PRODUCT_PACKAGES += \
     libmm-disp-apis
 
 PRODUCT_PACKAGES += \
+    com.qualcomm.location
+
+PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
     libtime_genoff
+
+PRODUCT_PACKAGES += \
+    libhuawei_secure \
+    liboeminfo_oem_api
+
+PRODUCT_PACKAGES += \
+    libqmi_oem_api
 
 $(call inherit-product, vendor/huawei/msm8916-common/msm8916-common-vendor-blobs.mk)
